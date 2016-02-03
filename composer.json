@@ -1,0 +1,19 @@
+{
+    "name": "ikeda/msgpack-rpc",
+    "description": "PHP implementation for JSON-RPC (v2) server using MessagePack",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "IKEDA Youhei",
+            "email": "youhey.ikeda@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "ext-msgpack": "*"
+    },
+    "autoload": {
+            "psr-0": { "MsgpackRpc": "src/" }
+    }
+}
