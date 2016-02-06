@@ -12,7 +12,7 @@
          bootstrap="tests/bootstrap.php"
 >
     <testsuites>
-        <testsuite name="PHP JSON wrapper Test Suite">
+        <testsuite name="MessagePack on JSON RPC Test Suite">
             <directory>./tests/</directory>
         </testsuite>
     </testsuites>
